@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+
+/*pour éviter les soucis de marges qui débordent*/
+*{
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+}
+/*mettre la couleur de la page blanc*/
+body{
+    background-color: #FFFFFF;
+    font-size: 16px;   
+}
+
+h1{
+    text-align: center;
+    padding: 18px;
+}
+h2{
+    margin-top: 45px;
+    color: #CE0033;
+}
+button,#btn1{
+    border-radius: 20px;
+}
+#liste{
+    float: right;
+}
+
+img, #search{
+    margin: 10px 18px;
+}
+.bar_rouge {
+    background-color: #CE0033;
+    color: white;
+    height: 100px;
+}
+
+.appel {
+    position: relative;
+    line-height: 1.2em;
+}
+.appel:before {
+    position: absolute;
+    left: 0;
+    top: 1.4em;
+    height: 0;
+    width: 110px;
+    content: '';
+    border-top: 8px solid #CF3A35;
+}
+.separate{
+    color: #CE0033;
+    height: 7px;
+}
+#under{
+    position: relative;
+}
+#under::before{
+    position: absolute;
+    left: 2;
+    top: 3.0em;
+    height: 0;
+    width: 60px;
+    content: '';
+    border-top: 6px solid #CF3A35;
+}
+#sous-titre1{
+    margin-top: 30px;
+}
+#sous-titre2{
+    margin-top: 100px;
+}
+.cercle{
+    width: 100px;
+    height: 50px;
+    padding: 10px;
+    margin-bottom: 80px;
+    border: 2px solid #CE0033;
+    color: #CE0033;
+    text-align: center;
+    font: 18px Arial, sans-serif;
+    border-radius: 50%;
+}
+#etape{
+    color: #CE0033;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+#first{
+    background-color: #CE0033;
+    color: white;
+}
+.nav-item{
+    align-items: center;
+    color: black;
+}
+.card-title{
+    text-align: center;
+    color: #CE0033;
+}
+.card-text{
+    margin-left: 80px;
+}
+p .card-text{
+    justify-content: left;
+    margin-left: 20px;
+}
+
+p #start,#end{
+    color: #CF3A35;
+    margin-right: 7px;
+}
+p #end{
+    margin-left: 60px;
+}
+
+button,#btn1 ,#btn2{
+    margin-left: 75px;
+    border-radius: 20px;
+}
+#trapeze{
+    width: 0;
+    height: 400px;
+    border-top: 0vw solid transparent;
+    border-left: 100vw solid #CE0033;
+    border-bottom: 5vw solid transparent;
+}
+
+/*
+
+.appel:before {
+    position: absolute;
+    left: 0;
+    top: 1.4em;
+    height: 0;
+    width: 110px;
+    content: '';
+    border-top: 8px solid #CF3A35;
+}
+
+#img1{
+    height: 249px;
+    margin: 30px 50px;
+    width: 400px;
+    left: 194px;
+    top: 1604px;
+    border-radius: 10px;
+}
+.card-title{
+    color: #CF3A35;
+    text-align: center;
+}
+.designer{
+    font-family: Nunito Sans;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 41px;
+    letter-spacing: 0.05em;
+    text-align: center;
+}
+
+
+
+.bar_rouge {
+    margin-top: 12px;
+    background-color: #CE0033;
+    color: white;
+    text-align: center;
+    height: 100px;
+}
+h2{
+    color: #CE0033;
+    margin-top: 50px;
+    margin-left: 180px;
+}
+
+#nv1{
+    color: black;
+    align-items: right;
+}
+#para1
+{
+    text-align: justify;
+    justify-items: self-start;
+}
+
+#liste{
+    float: right;
+    display: inline-table;
+}
+.cercle{
+  width: 100px;
+  height: 50px;
+  padding: 10px;
+  border: 2px solid #CE0033;
+  color: #CE0033;
+  text-align: center;
+  font: 14px Arial, sans-serif;
+  border-radius: 50%;
+}
+
+
+h5{
+    color: #CE0033;
+}
+*/
