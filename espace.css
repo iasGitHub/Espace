@@ -15,6 +15,19 @@ body{
 h1{
     text-align: center;
     padding: 40px;
+    background: #CE0033;
+    color: white;
+    height: 140px; width: 100%;
+}
+#e1,#e2,#e3,#e4{
+    color: #CE0033;
+}
+#opa2,#opa3,#opa4{
+    opacity: 0.4;
+}
+
+.row p{
+    font-size: 20px;
 }
 h2{
     color: #CE0033;
@@ -47,6 +60,9 @@ ul li a{
     text-decoration: none;
     color: black;
 }
+#card-rse{
+    max-width: 100%;
+}
 
 #under1::before{
     position: absolute;
@@ -57,7 +73,6 @@ ul li a{
     content: '';
     border-top: 6px solid #CF3A35;
 }
-
 
 .cercle{
     width: 100px;
@@ -74,7 +89,7 @@ ul li a{
     background-color: #CE0033;
     color: white;
 }
-.card-title{
+.container .card-title{
     text-align: center;
     color: #CE0033;
 }
@@ -82,7 +97,19 @@ p .card-text{
     justify-content: left;
     font-size: 25px;
     text-align: center;
-    color: #FFFFFF
+}
+.card-text small{
+    color: #CE0033;
+}
+.card-body{
+    color: white;
+}
+.card-body button{
+    background-color: white;
+    color: #CE0033;
+}
+.container-fluid .row .card {
+    background-color: #CE0033;
 }
 #trapeze{
     width: 0;
@@ -91,8 +118,44 @@ p .card-text{
     border-left: 100vw solid #CE0033;
     border-bottom: 5vw solid transparent;
 }
-
-
+#formateur{
+    height: 250px;
+    width: 350px;
+}
+#soulign1{
+    width: 65px; 
+    height: 8px; 
+    background-color: #CE0033;
+}
+#soulign2,#soulign3,#soulign4,#soulign5,#soulign6{
+    width: 110px; 
+    height: 8px; 
+    background-color: #CE0033;
+}
+#rens{
+    color: #CE0033;
+    text-align: center;
+}
+#apropo{
+    color: white;
+    text-align: center;
+}
+#rdf{
+    height: 400px;
+    width: 700px;
+}
+#rej{
+    background-color: #FFFFFF;
+    color: #CE0033;
+    border-radius: 40px;
+    width: 200px;
+    height: 50px;
+}
+#l_rej{
+    font-size: 25px;
+    text-align: center;
+    color: #FFFFFF;
+}
 
 /*
 
