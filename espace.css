@@ -37,6 +37,9 @@ body{
 h2{
     color: #CE0033;
 }
+#assit{
+    color: black;
+}
 
 .bar_rouge {
     background-color: #CE0033;
@@ -133,7 +136,7 @@ p .card-text{
     height: 8px; 
     background-color: #CE0033;
 }
-#soulign2,#soulign3,#soulign4,#soulign5,#soulign6,#soulign7{
+#soulign2,#soulign3,#soulign4,#soulign5,#soulign6,#soulign7,#soulign8{
     width: 110px; 
     height: 8px; 
     background-color: #CE0033;
@@ -184,8 +187,29 @@ form input, textarea{
     background-color: #CE0033;
     color: white;
 }
-#card-bodyP4{
+#card-bodyP4,.card-bodyRD,.card-bodySass{
     background-color: white;
+}
+#activ{
+    max-width: 100%;
+    border: none;
+}
+@media screen and (max-width: 600px){
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+    #espace{
+        width: 100%;
+    }
+    p
+    {
+        font-size: 1.2em;
+    }
+    #cohorte{
+        
+    }
+    
 }
 
 /*

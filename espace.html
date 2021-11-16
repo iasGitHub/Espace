@@ -14,8 +14,8 @@
 <header>
     <div class="row p-4 mx-3">
             <!--Logo de simplon-->
-            <div class="col-4">
-                <img src="images/simplon.png" class="w-25" alt="">
+            <div class="col-4" id="logo_simpl">
+                <img src="images/simplon.png" class="w-25"  alt="">
             </div>
             <div class="col-8">
                 <nav class="navbar navbar-expand-lg">
@@ -53,7 +53,7 @@
                         </li>
                     </ul>
                     <img src="images/icons8-search-24.png" class="mb-1 mx-4" alt="">
-                    <div class="dropdown">
+                    <div id="ddl" class="dropdown">
                       <div class="dropdown-toggle mr-2" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="true">
                         fr
                       </div>
@@ -62,348 +62,444 @@
                         <li><a class="dropdown-item" href="#">esp</a></li>
                       </ul>
                     </div>
-                    <button class="btn btn-danger mb-3 ms-5 rounded-pill">contact</button>
+                    <button id="contact" class="btn btn-danger mb-3 ms-5 rounded-pill">contact</button>
                 </nav>
             </div>
     </div>
 </header>
                 <!--- end - Header-->
-  <main>              
-        <nav class="container-fluid mt-0">
-          <h1 id="espace">Espaces</h1>
-        </nav>
-        <div class="p-5">
-              <h2>Apprenants</h2>
-              <h3 class="mt-5">Je veux m'inscrire à une formation</h3>
-              <div id="soulign2"></div>
+
+                <!-- main -->
+<main>              
+  <nav class="container-fluid mt-0">
+    <h1 id="espace">Espaces</h1>
+  </nav>
+  <div class="p-5">
+        <h2>Apprenants</h2>
+        <h3 class="mt-5">Je veux m'inscrire à une formation</h3>
+        <div id="soulign2"></div>
+  </div>
+  <div class="container">
+    <div class="row mx-5">
+        <div class="col-md-3">
+            <span class="cercle ms-4" id="first">01</span>
+            <h3 class="mt-5" id="e1">Trouver sa formation</h3>
+            <p> Lorem Ipsum Lorem <br> Lorem Ipsum Lorem <br> Lorem Ipsum Lorem <br> </p>
         </div>
-        <div class="container">
-          <div class="row mx-5">
-              <div class="col-md-3">
-                  <span class="cercle ms-4" id="first">01</span>
-                  <h3 class="mt-5" id="e1">Trouver sa formation</h3>
-                  <p> Lorem Ipsum Lorem <br> Lorem Ipsum Lorem <br> Lorem Ipsum Lorem <br> </p>
-              </div>
-              <div class="col-md-3" id="opa2">
-                  <span class="cercle ms-4">02</span>
-                  <h3 class="mt-5" id="e2">Choisir la formation</h3>
-                  <p> Lorem Ipsum Lorem <br> Lorem Ipsum Lorem <br> Lorem Ipsum Lorem <br> </p>
-              </div>
-              <div class="col-md-3" id="opa3">
-                  <span class="cercle ms-4">03</span>
-                  <h3 class="mt-5" id="e3">Renseigner les champs</h3>
-                  <p> Lorem Ipsum Lorem <br> Lorem Ipsum Lorem <br> Lorem Ipsum Lorem <br> </p>
-              </div>
-              <div class="col-md-3" id="opa4">
-                  <span class="cercle ms-4">04</span>
-                  <h3 class="mt-5" id="e4">Sinscrire</h3>
-                  <p> Lorem Ipsum Lorem <br> Lorem Ipsum Lorem <br> Lorem Ipsum Lorem <br> </p>
-              </div>
-          </div>
-      </div>
-
-      <div class="p-5">
-        <h3 class="mt-5">Appel à candidature en cours</h3>
-        <div id="soulign3"></div>
-      </div>
-
-      <div class="container">
-          <div class="row">
-            <div class="col-lg-4">
-              <img src="../../../Téléchargements/design.png" class="img-fluid rounded-start mx-5 w-75" alt="...">
-            </div>
-            <div class="col-lg-8 mb-5">
-              <div class="p-3">
-                <h3 class="card-title p-2">Designer</h3>
-                <p class="card-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore commodi illum officiis
-                  porro esse doloremque nostrum cumque dignissimos ratione repudiandae odio ipsa enim sequi
-                  quo, dolores voluptas maiores exercitationem quia?
-                </p>
-                <p class="card-text"><small>Début</small> &nbsp;September &nbsp;20<small>&nbsp;&nbsp;&nbsp;Fin</small>&nbsp; June &nbsp; 20</p>
-                <button class="btn btn-danger rounded-pill">S'inscrire</button>
-              </div>
-            </div>
-          </div>
-          <hr class="separate mb-5 w-95">
-          <div class="row">
-            <div class="col-lg-4">
-              <img src="../../../Téléchargements/dev.png" class="img-fluid rounded-start mx-5 w-75" alt="...">
-            </div>
-            <div class="col-lg-8 mb-5">
-              <div class="p-3">
-                <h3 class="card-title p-2">Codeur</h3>
-                <p class="card-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore commodi illum officiis
-                  porro esse doloremque nostrum cumque dignissimos ratione repudiandae odio ipsa enim sequi
-                  quo, dolores voluptas maiores exercitationem quia?
-                </p>
-                <p class="card-text"><small>Début</small> &nbsp; September &nbsp;20<small>&nbsp;&nbsp;&nbsp;Fin</small>&nbsp; June &nbsp;20</p>
-                <button class="btn btn-danger rounded-pill">S'inscrire</button>
-              </div>
-            </div>
-          </div>
+        <div class="col-md-3" id="opa2">
+            <span class="cercle ms-4">02</span>
+            <h3 class="mt-5" id="e2">Choisir la formation</h3>
+            <p> Lorem Ipsum Lorem <br> Lorem Ipsum Lorem <br> Lorem Ipsum Lorem <br> </p>
+        </div>
+        <div class="col-md-3" id="opa3">
+            <span class="cercle ms-4">03</span>
+            <h3 class="mt-5" id="e3">Renseigner les champs</h3>
+            <p> Lorem Ipsum Lorem <br> Lorem Ipsum Lorem <br> Lorem Ipsum Lorem <br> </p>
+        </div>
+        <div class="col-md-3" id="opa4">
+            <span class="cercle ms-4">04</span>
+            <h3 class="mt-5" id="e4">Sinscrire</h3>
+            <p> Lorem Ipsum Lorem <br> Lorem Ipsum Lorem <br> Lorem Ipsum Lorem <br> </p>
+        </div>
     </div>
+</div>
 
-    <!--Formateurs-->
-    <div class="container-fluid p-5">
-      <br>
-      <h2>Formateur</h2>
-      <br>
-      <h3>Rejoindre le réseau des formateurs</h3>
-      <div id="soulign4"></div>
-    </div>
-    
-    <div class="container-fluid">
-      <div class="row">
-        <div class="card mb-3" id="card_rse">
-          <div class="row g-0" id="reseau">
-            <div class="col-md-6 p-5">
-              <div class="card-body">
-                <br><br>
-                <h3 class="card-title" id="apropo">A propos du réseau</h3> <br>
-                <p class="card-text" id="l_rej"> Lorem ipsum Lorem ipsum Lorem ipqum <br> Lorem ipsum Lorem ipsum Lorem ipqum Lorem ipsum <br> Lorem ipsum Lorem ipsum Lorem ipqum Lorem ipsem <br> Lorem ipsum Lorem ipsum Lorem ipqum <br><br>
-                  <button id="rej">Nous rejoindre</button>
-                </p>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <br>
-              <img src="images/formateur.png" class="img-fluid rounded-start" id="rdf" alt="...">
-            </div>
-          </div>
+<div class="p-5">
+  <h3 class="mt-5">Appel à candidature en cours</h3>
+  <div id="soulign3"></div>
+</div>
+
+<div class="container">
+    <div class="row">
+      <div class="col-lg-4">
+        <img src="../../../Téléchargements/design.png" class="img-fluid rounded-start mx-5 w-75" alt="...">
+      </div>
+      <div class="col-lg-8 mb-5">
+        <div class="p-3">
+          <h3 class="card-title p-2">Designer</h3>
+          <p class="card-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore commodi illum officiis
+            porro esse doloremque nostrum cumque dignissimos ratione repudiandae odio ipsa enim sequi
+            quo, dolores voluptas maiores exercitationem quia?
+          </p>
+          <p class="card-text"><small>Début</small> &nbsp;September &nbsp;20<small>&nbsp;&nbsp;&nbsp;Fin</small>&nbsp; June &nbsp; 20</p>
+          <button class="btn btn-danger rounded-pill">S'inscrire</button>
         </div>
       </div>
     </div>
+    <hr class="separate mb-5 w-95">
+    <div class="row">
+      <div class="col-lg-4">
+        <img src="../../../Téléchargements/dev.png" class="img-fluid rounded-start mx-5 w-75" alt="...">
+      </div>
+      <div class="col-lg-8 mb-5">
+        <div class="p-3">
+          <h3 class="card-title p-2">Codeur</h3>
+          <p class="card-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore commodi illum officiis
+            porro esse doloremque nostrum cumque dignissimos ratione repudiandae odio ipsa enim sequi
+            quo, dolores voluptas maiores exercitationem quia?
+          </p>
+          <p class="card-text"><small>Début</small> &nbsp; September &nbsp;20<small>&nbsp;&nbsp;&nbsp;Fin</small>&nbsp; June &nbsp;20</p>
+          <button class="btn btn-danger rounded-pill">S'inscrire</button>
+        </div>
+      </div>
+    </div>
+</div>
 
-    <div class="container-fluid p-5">
-        <h2 >Entreprise</h2>
-        <div class="row">
-            <div class="col-md-6">
-                <h3 class="mt-5">Recruter un talent</h3>
-                <div id="soulign5"></div>
-            </div>
-            <div class="col-md-6">
-              <form>
-                  <input class="form-control p-2 mt-5 w-50" type="search" placeholder="Rechercher un profil" aria-label="Search" >
-              </form>
-            </div>
+<!--Formateurs-->
+<div class="container-fluid p-5">
+<br>
+<h2>Formateur</h2>
+<br>
+<h3>Rejoindre le réseau des formateurs</h3>
+<div id="soulign4"></div>
+</div>
+
+<div class="container-fluid">
+<div class="row">
+  <div class="card mb-3" id="card_rse">
+    <div class="row g-0" id="reseau">
+      <div class="col-md-6 p-5">
+        <div class="card-body">
+          <br><br>
+          <h3 class="card-title" id="apropo">A propos du réseau</h3> <br>
+          <p class="card-text" id="l_rej"> Lorem ipsum Lorem ipsum Lorem ipqum <br> Lorem ipsum Lorem ipsum Lorem ipqum Lorem ipsum <br> Lorem ipsum Lorem ipsum Lorem ipqum Lorem ipsem <br> Lorem ipsum Lorem ipsum Lorem ipqum <br><br>
+            <button id="rej">Nous rejoindre</button>
+          </p>
         </div>
-        <div class="row p-5">
-            <div class="col-3">
-                <img class="w-75" src="images/mai.png" alt="">
+      </div>
+      <div class="col-md-6">
+        <br>
+        <img src="images/formateur.png" class="img-fluid rounded-start" id="rdf" alt="...">
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="container-fluid p-5">
+  <h2 >Entreprise</h2>
+  <div class="row">
+      <div class="col-md-6">
+          <h3 class="mt-5">Recruter un talent</h3>
+          <div id="soulign5"></div>
+      </div>
+      <div class="col-md-6">
+        <form>
+            <input class="form-control p-2 mt-5 w-50" type="search" placeholder="Rechercher un profil" aria-label="Search" >
+        </form>
+      </div>
+  </div>
+  <div class="row p-5">
+      <div class="col-3">
+          <img class="w-75" src="images/mai.png" alt="">
+      </div>
+      <div class="col-3">
+        <img class="w-75" src="images/mai.png" alt="">
+      </div>
+      <div class="col-3">
+        <img class="w-75" src="images/mai.png" alt="">
+      </div>
+      <div class="col-3">
+        <img class="w-75" src="images/mai.png" alt="">
+      </div>
+  </div>
+
+  <div>
+  <h3 class="mt-5">Deposer une offre</h3>
+  <div id="soulign6"></div>
+  
+  <div class="row mt-4">
+      <p>
+      Sur la gauche de l'ecran, repérez immédiatement ou vous en etes de votre saisie et complétez les champs 
+      dans l'ordre qui vous convient lorem ipsum lorem ipsum lorem ipsum lorem ipsum<br>
+      Si vous interrompez votre saisie, celle-ci est automatiquement sauvegardée. Sur la gauche de l'ecran, repérez lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum<br>
+      immediatement ou vous en etes de votre saisie et complétez les champs dans l'ordre qui vous convient? lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum<br>
+      Si vous interrompez votre saisie, celle-ci est automatiquement sauvegardée. lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+      </p>
+  </div>
+  <div class="row">
+      <div class="col-sm-4 mt-5">
+          <img src="images/depot.png" class="img-fluid w-50" alt="...">
+      </div>
+      <div class="col-sm-5 mt-5">
+          
+          <h3 id="rens" class="mx-5">Veuillez renseigner le formulaire</h3>
+          <br>
+          <form class="row g-3">
+            <div class="col-sm-6">
+              <input type="text" class="form-control w-80" id="pre" placeholder="Prénom *">
             </div>
-            <div class="col-3">
-              <img class="w-75" src="images/mai.png" alt="">
+            <div class="col-sm-6">
+                <input type="text" class="form-control w-80" id="nom" placeholder="Nom *">
             </div>
-            <div class="col-3">
-              <img class="w-75" src="images/mai.png" alt="">
+            <div class="col-sm-6">
+                <input type="text" class="form-control w-80" id="entr" placeholder="Entreprise *">
             </div>
-            <div class="col-3">
-              <img class="w-75" src="images/mai.png" alt="">
+            <div class="col-sm-6">
+                <input type="email" class="form-control w-80" id="mail" placeholder="Mail *">
             </div>
+            <div class="col-sm-6">
+              <input type="text" class="form-control w-80" id="tel" placeholder="Tel *">
+            </div>
+            <div class="col-sm-6">
+                <input type="text" class="form-control w-80" id="pro" placeholder="Profil recherché *">
+            </div>
+            <div class="mb-3">
+                <textarea class="form-control w-80 my-5" id="msg" rows="4" placeholder="Message *"></textarea>
+            </div>
+            <div class="mt-0">
+                <input type="file" class="form-control w-50" aria-label="file example" required >
+                <div class="invalid-feedback">Example invalid form file feedback</div>
+            </div>
+
+            <div class="col-12">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck"> J'accepte les conditions d'utilisation.</label>
+                </div>
+            </div>
+            <div class="col-12">
+                <button class="btn btn-danger rounded-pill" type="submit">Envoyer</button>
+            </div>
+          </form>
         </div>
-      
-        <div>
-        <h3 class="mt-5">Deposer une offre</h3>
-        <div id="soulign6"></div>
+    </div>
+  </div>
+</div>
+</div>
+                            <!--Devenir partenaire-->
+<div class="container-fluid p-5">
+  <br>
+  <h2>Devenir partenaire</h2>
+  <br>
+  <h3>Parainer une cohorte</h3>
+  <div id="soulign7"></div>
+</div>
+
+<section>
+  <div class="container-fluid" id="parain">
+    <nav class="container pt-5">
+      <h3>Nos parains</h3>
+    </nav>
+    <div class="container pt-3">
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos ipsum soluta ea quam quae eaque perspiciatis, necessitatibus cum!</br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis?
+      </p>
+      <div id="carouselExampleIndicators" class="carousel slide pt-3" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button id="caroussInd1" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button  type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" ></button>
+          <button  type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/cadre.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/formateur.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/cadre.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+</div>
+</section><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<section>
+  <div class="container-fluid p-5">
+     <div class="row">
+        <div class="col-md-6">
+          <h2>Ce qu'est une cohorte</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur reiciendis adipisci quas pariatur beatae, quia quod impedit excepturi voluptatem. Maxime tenetur at quam quasi nihil assumenda consequatur quas fugit, provident consequuntur dolores, fugiat labore delectus accusantium adipisci suscipit officia. Magnam veniam minima asperiores quo cumque beatae temporibus. Assumenda fugit dolor quibusdam! Nostrum recusandae sunt quae dicta ad tenetur saepe soluta delectus corrupti cum non numquam fugit, illo suscipit iste adipisci veritatis asperiores enim doloremque aliquam quod. Ratione dolore dicta libero facilis deserunt! Corporis, sed. Repellendus possimus voluptates eveniet quis! Ex voluptas quo culpa porro impedit similique repellat reiciendis sequi quae!
+          </p>
+          <img src="images/simp4.jpeg" class="w-75" alt="">
+        </div>
         
-        <div class="row mt-4">
-            <p>
-            Sur la gauche de l'ecran, repérez immédiatement ou vous en etes de votre saisie et complétez les champs 
-            dans l'ordre qui vous convient lorem ipsum lorem ipsum lorem ipsum lorem ipsum<br>
-            Si vous interrompez votre saisie, celle-ci est automatiquement sauvegardée. Sur la gauche de l'ecran, repérez lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum<br>
-            immediatement ou vous en etes de votre saisie et complétez les champs dans l'ordre qui vous convient? lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum<br>
-            Si vous interrompez votre saisie, celle-ci est automatiquement sauvegardée. lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-            </p>
-        </div>
-        <div class="row">
-            <div class="col-sm-4 mt-5">
-                <img src="images/depot.png" class="img-fluid w-50" alt="...">
-            </div>
-            <div class="col-sm-5 mt-5">
-                
-                <h3 id="rens" class="mx-5">Veuillez renseigner le formulaire</h3>
-                <br>
-                <form class="row g-3">
-                  <div class="col-sm-6">
-                    <input type="text" class="form-control w-80" id="pre" placeholder="Prénom *">
-                  </div>
-                  <div class="col-sm-6">
-                      <input type="text" class="form-control w-80" id="nom" placeholder="Nom *">
-                  </div>
-                  <div class="col-sm-6">
-                      <input type="text" class="form-control w-80" id="entr" placeholder="Entreprise *">
-                  </div>
-                  <div class="col-sm-6">
-                      <input type="email" class="form-control w-80" id="mail" placeholder="Mail *">
-                  </div>
-                  <div class="col-sm-6">
-                    <input type="text" class="form-control w-80" id="tel" placeholder="Tel *">
-                  </div>
-                  <div class="col-sm-6">
-                      <input type="text" class="form-control w-80" id="pro" placeholder="Profil recherché *">
-                  </div>
-                  <div class="mb-3">
-                      <textarea class="form-control w-80 my-5" id="msg" rows="4" placeholder="Message *"></textarea>
-                  </div>
-                  <div class="mt-0">
-                      <input type="file" class="form-control w-50" aria-label="file example" required >
-                      <div class="invalid-feedback">Example invalid form file feedback</div>
-                  </div>
-
-                  <div class="col-12">
-                      <div class="form-check">
-                          <input class="form-check-input" type="checkbox" id="gridCheck">
-                          <label class="form-check-label" for="gridCheck"> J'accepte les conditions d'utilisation.</label>
+        <div class="col-md-6">
+          <h3 class="card-title text-center" >Nos cohortes en cours</h3> <br>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6 my-5">
+              <div id="carouselExampleIndicatorss" class="carousel slide " data-bs-ride="carousel">
+                <div class="carousel-indicators my-0">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" ></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3" ></button>
+                </div>
+                <div class="carousel-inner" id="cohorte">
+                  <div class="carousel-item active">
+                    <div id="cohorte" class="card text-center" >
+                        <img src="images/simp5.png" class="card-img-top" alt="...">
+                        <div id="card-bodyP4" class="card-body">
+                          <h3 class="card-title">DWWM</h3>
+                          <p class="card-text ">Suite de mots sans signification lorem ipsum lorem ipsum calibrer une mise en page, lorem utilisée à titre provisoire pour lorem ipsum lorem ipsum calibrer une mise en page</p>
+                          <button href="#" class="btn btn-mon rounded-pill" >Parrainer</button>
+                        </div>
                       </div>
                   </div>
-                  <div class="col-12">
-                      <button class="btn btn-danger rounded-pill" type="submit">Envoyer</button>
+                  <div class="carousel-item">
+                    <div class="card text-center">
+                        <img src="images/simp12.jpg" class="card-img-top" alt="...">
+                        <div id="card-bodyRD" class="card-body">
+                          <h3 class="card-title">Promo4 Ref digital</h3>
+                          <p class="card-text">Suite de mots sans signification lorem ipsum lorem ipsum calibrer une mise en page, lorem utilisée à titre provisoire pour lorem ipsum lorem ipsum calibrer une mise en page </p>
+                          <button href="#" class="btn btn-mon rounded-pill">Parrainer</button>
+                        </div>
+                      </div>
                   </div>
-                </form>
+                  <div class="carousel-item">
+                    <div class="card text-center">
+                        <img src="images/simp13.jpg" class="card-img-top" alt="...">
+                        <div id="card-bodySass" class="card-body">
+                          <h3 class="card-title">ADEFIPA</h3>
+                          <p class="card-text">Suite de mots sans signification lorem ipsum lorem ipsum calibrer une mise en page, utilisée à titre provisoire pour lorem ipsum lorem ipsum calibrer une mise en page </p>
+                          <button href="#" class="btn btn-mon rounded-pill">Parrainer</button>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
               </div>
+            </div>
+            <div class="col-md-3"></div>
+          </div>
+        </div>
+     </div>
+  </div>
+</section>
+
+                            <!--Participer aux activités de la fabrique-->
+<section>
+  <div class="container-fluid p-md-5">    
+    <h2 id="assit">Participer aux activités de la fabrique</h2>
+    <div id="soulign8"></div>
+  </div>
+  <div class="container-fluid p-md-5" >
+    <div class="row">
+      <div class="card mb-3" id="activ">
+        <div class="row g-0">
+          <div class="col-md-6">
+            <div class="card-body mr-5">
+              <h2 class="card-title">Nos dernières activités</h2> <br>
+              <p class="card-text"> 
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto eveniet temporibus error, obcaecati at asperiores in dicta? Nesciunt praesentium odio aut voluptate itaque! Eum, amet temporibus, asperiores et molestiae hic impedit totam neque dignissimos tenetur ab optio at fuga quos?
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="row m-1">
+              <div class="col-md-6 my-5 image-1">
+                  <h4> Dev Web Web Mobile</h4> 
+              </div>
+              <div class="col-md-6 mx-md-5 image-2">
+                <h4>Certification opquast</h4>
+              </div>
+            </div>
+            <div class="row m-1">
+              <div class="col-md-6 image-3">
+                <h4>Meet avec Mr Malick</h4>
+              </div>
+              <div class="col-md-6 mx-md-5 image-4">
+                <h4>Atelier avec Orbit Turner</h4>
+              </div>
+              
+            </div>
+            <div class="row">
+              <div class="col-md-6"></div>
+              <div class="col-md-6">
+                <h4 class="card-title voir"> Voir toutes nos activites</h4>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
-                                  <!--Devenir partenaire-->
-      <div class="container-fluid p-5">
-        <br>
-        <h2>Devenir partenaire</h2>
-        <br>
-        <h3>Parainer une cohorte</h3>
-        <div id="soulign7"></div>
-      </div>
-      
-      <section>
-        <div class="container-fluid" id="parain">
-          <nav class="container pt-5">
-            <h3>Nos parains</h3>
-          </nav>
-          <div class="container pt-3">
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos ipsum soluta ea quam quae eaque perspiciatis, necessitatibus cum!</br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis?
-            </p>
-            <div id="carouselExampleIndicators" class="carousel slide pt-3" data-bs-ride="carousel">
-              <div class="carousel-indicators">
-                <button id="caroussInd1" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button  type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" ></button>
-                <button  type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-              </div>
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img src="images/cadre.png" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                  <img src="images/formateur.png" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                  <img src="images/cadre.png" class="d-block w-100" alt="...">
-                </div>
-              </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-              </button>
+  </div>
+</section>
+
+<div class="row">
+  <footer >
+    <div class="footer" id="call">
+  
+        <div class="footer-socials">
+            <div class="logo">
+                <img src="img/logofooter.png" alt=""><br>
+                SENEGAL
             </div>
-          </div>
-      </div>
-      </section><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
-      <section>
-        <div class="container-fluid p-5">
-           <div class="row">
-              <div class="col-md-6">
-                <h2>Ce qu'est une cohorte</h2>
-                <p>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem, voluptatum.<br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, corrupti.
-                </p>
-              </div>
-              
-              <div class="col-md-6">
-                <h2>Nos cohortes en cours</h2>
-                <div id="cohorte" class="card w-50">
-                  <img src="images/simp5.png" class="card-img-top" alt="...">
-                  <div id="card-bodyP4" class="card-body">
-                    <h5 id="p4" class="card-title">Promo 4 DWWM </h5>
-                    <p id="paraCohorte" class="card-text p-2">
-                      Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
-                    </p>
-                    <button id="parainer" class="btn btn-danger rounded-pill" type="submit">Parainer</button>
-                  </div>
-                </div>
-              </div>
-           </div>
+            <div class="socials">
+                <img src="img/twitter.png" alt="">
+                <img src="img/facebook.png" alt="">
+                <img src="img/instagram.png" alt="">
+                <img src="img/youtube.png" alt="">
+            </div>
         </div>
-      </section>
-      
-      <footer>
-        <div class="footer" id="call">
+  
+        <div class="plus">
+            <h1>Voir plus</h1>
+            <ul>
+                <li><a href="#">A propos</a></li>
+                <li><a href="#">Notre histoire</a></li>
+                <li><a href="#">Condition d'utilisation</a></li>
+                <li><a href="#">Politique de confidentialité</a></li>
+                <li><a href="#">FAQ</a></li>
+            </ul>
+        </div>
+  
+        <div class="coordonnes">
+            <h1>Coordonnées</h1>
+            <div class="adresse">
+                Cité Keur gorgui <br> Dakar, Sicap liberté 2 <br> Sénégal
+            </div>
+            <div class="mail">
+                <strong>simplon_senegal@gmail.com</strong> <br>
+                <strong>help@simplon.com</strong> <br>
+                +221 77 777 77 77 <br>
+                +221 77 777 77 77 <br>
+            </div>
+        </div>
+  
+        <div class="newsletter">
+            <p>Souscrivez a notre newsletter pour ne manquer a aucune de nos actualités</p>
+            <div class="search">
+                <form>
+                    <input type="email" placeholder="    Email" id="email"><input type="submit" id="joindre" value="Joindre">
+                </form>
+            </div>
+        </div>
+    </div>
+  
+    <div class="end">
+        <div class="droits">
+            © 2021 Simplon. All rights reserved.
+        </div>
+        <div class="coeur">
+            Made with <img src="img/heart.png" alt=""> by SIMPLON P4
+        </div>
+    </div>
+  </footer>
+</div>
 
-          <div class="footer-socials">
-              <div class="logo">
-                  <img src="img/logofooter.png" alt=""><br>
-                  SENEGAL
-              </div>
-              <div class="socials">
-                  <img src="img/twitter.png" alt="">
-                  <img src="img/facebook.png" alt="">
-                  <img src="img/instagram.png" alt="">
-                  <img src="img/youtube.png" alt="">
-              </div>
-          </div>
-  
-          <div class="plus">
-              <h1>Voir plus</h1>
-              <ul>
-                  <li><a href="#">A propos</a></li>
-                  <li><a href="#">Notre histoire</a></li>
-                  <li><a href="#">Condition d'utilisation</a></li>
-                  <li><a href="#">Politique de confidentialité</a></li>
-                  <li><a href="#">FAQ</a></li>
-              </ul>
-          </div>
-  
-          <div class="coordonnes">
-              <h1>Coordonnées</h1>
-              <div class="adresse">
-                  Cité Keur gorgui <br> Dakar, Sicap liberté 2 <br> Sénégal
-              </div>
-              <div class="mail">
-                  <strong>Simplon@gmail.com</strong> <br>
-                  <strong>help@simplon.com</strong> <br>
-                  +221 77 777 77 77 <br>
-                  +221 77 777 77 77 <br>
-              </div>
-          </div>
-  
-          <div class="newsletter">
-              <p>Souscrivez a notre newsletter pour ne manquer a aucune de nos actualités</p>
-              <div class="search">
-                  <form>
-                      <input type="email" placeholder="    Email" id="email"><input type="submit" id="joindre" value="Joindre">
-                  </form>
-              </div>
-          </div>
-  
-         
-      </div>
-  
-      <div class="end">
-          <div class="droits">
-              © 2021 Simplon. All rights reserved.
-          </div>
-          <div class="coeur">
-              Made with <img src="img/heart.png" alt=""> by SIMPLON P4
-          </div>
-      </div>
-      </footer>
-      
-  </main>
+</main>
+
 </body>
 </html>
