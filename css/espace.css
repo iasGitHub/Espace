@@ -9,7 +9,6 @@ body{
     font-family: 'Nunito Sans', sans-serif;
     overflow-x: hidden;
 }
-
 .lang-menu {
     width: 100px;
     text-align: right;
@@ -46,8 +45,9 @@ body{
     border-radius: 5px;
     box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
 }
-
-
+.cerre{
+    margin: -41px -145px;;
+ }
 .lang-menu ul li {
     list-style: none;
     text-align: left;
@@ -77,24 +77,13 @@ body{
     background-repeat: no-repeat;
 }
 
-.de:before {
-    background-image: url(https://www.countryflags.io/de/flat/32.png);
-}
-
-.en:before {
-    background-image: url(https://www.countryflags.io/us/flat/32.png);
-}
-.fr:before {
-    background-image: url(https://www.countryflags.io/fr/flat/32.png);
-}
-
-.ar:before {
-    background-image: url(https://www.countryflags.io/ae/flat/32.png);
-}
-
 
 .lang-menu:hover ul {
     display: block;
+}
+
+#id1,#id2,#id3,#id4,#id5,#id6{
+    color: black;
 }
 
 .nav-link{
@@ -365,7 +354,8 @@ h5{
         border: #CE0033;
     }
     #rens{
-        margin-left: 140px;
+        font-size: 14px;
+        margin-left: 80px;
     }
     #imgDepo{
         margin-left: 70px;
@@ -388,6 +378,17 @@ h5{
     #parainer{
         position: static;
     }
+    #img1, #img2, #img3, #img4 {
+        width: 50;
+        height: 50vh;
+    }
+
+    .demi{
+        display: none;
+    }
+    .cerre{
+        margin: 50px 50px;
+     }
     
 }
 
