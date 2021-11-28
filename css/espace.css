@@ -295,6 +295,12 @@ h5{
         margin-top: 5px;
         background-color: #CE0033;
     }
+    .separate{
+        display: none;
+    }
+    #confie-a-gauche{
+        align-items: center;
+    }
     .card-text, #btn-appel1,#btn-appel2{
         margin-left: 10px;
     }
