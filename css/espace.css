@@ -1,0 +1,388 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Nunito Sans', sans-serif;
+    overflow-x: hidden;
+}
+
+.lang-menu {
+    width: 100px;
+    text-align: right;
+    font-weight: bold;
+    margin-top: 25px;
+    position: relative;
+}
+.lang-menu .selected-lang {
+    display: flex;   
+    justify-content: space-between;
+    line-height: 2;
+    cursor: pointer;
+}
+.lang-menu .selected-lang:before {
+    content: '';
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-image: url(https://www.countryflags.io/us/flat/32.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.lang-menu ul {
+    margin: 0;
+    padding: 0;
+    display: none;
+    background-color: #fff;
+    border: 1px solid #f8f8f8;
+    position: absolute;
+    top: 45px;
+    right: 0px;
+    width: 125px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+}
+
+
+.lang-menu ul li {
+    list-style: none;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lang-menu ul li a {
+    text-decoration: none;
+    width: 125px;
+    padding: 5px 10px;
+    display: block;
+}
+
+.lang-menu ul li:hover {
+    background-color: #f2f2f2;
+}
+
+.lang-menu ul li a:before {
+    content: '';
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+    margin-right: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.de:before {
+    background-image: url(https://www.countryflags.io/de/flat/32.png);
+}
+
+.en:before {
+    background-image: url(https://www.countryflags.io/us/flat/32.png);
+}
+.fr:before {
+    background-image: url(https://www.countryflags.io/fr/flat/32.png);
+}
+
+.ar:before {
+    background-image: url(https://www.countryflags.io/ae/flat/32.png);
+}
+
+
+.lang-menu:hover ul {
+    display: block;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+}
+.relative{
+    position: relative;
+}
+.lang{
+    font-weight: 700;
+    margin: 0 8px;
+}select{
+    background-color: #CE0033;
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 0;
+}
+
+#menu{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#espace{
+    font-size: 40px;
+    padding: 45px;
+    font-weight: bold;
+    background: #CE0033;
+    color: white;
+    height: 144px;
+}
+#titre-section1,#titre-section2,
+#titre-section3,#titre-section4{
+    font-size: 48px;
+    color: black
+}
+h3{
+    color: #CE0033;
+}
+#emplacement{
+    width: 70px; 
+    height: 5px;
+    position: absolute;
+    margin-top: 28px;
+    background-color: #CE0033;
+}
+
+#sous-titre1-section1,#sous-titre2-section1,
+#sous-titre1-section2,#sous-titre1-section3,
+#sous-titre2-section3,#sous-titre3-section3,
+#sous-titre3-section3,#sous-titre4-section3,
+#sous-titre5-section3{
+    width: 110px;
+    height: 5px; 
+    background-color: black;
+}
+.cercle{
+    width: 100px;
+    height: 50px;
+    padding: 10px;
+    border: 2px solid #CE0033;
+    color: #CE0033;
+    text-align: center;
+    font: 18px Arial, sans-serif;
+    border-radius: 50%;
+}
+#first{
+    background-color: #CE0033;
+    color: white;
+}
+#e1,#e2,#e3,#e4{
+    color: #CE0033;
+}
+#e2,#e3,#e4{
+    opacity: 0.4;
+}
+#barre1-entre-chiffre {
+    position: absolute;
+    width: 408px; 
+    height: 8px;
+    margin-top: 10px;
+    margin-left: 252px;
+    background-color: #C4C4C4;
+    opacity: 0.3;
+}
+#barre2-entre-chiffre {
+    position: absolute;
+    width: 408px; 
+    height: 8px;
+    margin-top: 10px;
+    margin-left: 700px;
+    background-color: #C4C4C4;
+    opacity: 0.3;
+}
+#barre3-entre-chiffre {
+    position: absolute;
+    width: 408px; 
+    height: 8px;
+    margin-top: 10px;
+    margin-left: 1150px;
+    background-color: #C4C4C4;
+    opacity: 0.3;
+}
+#btn-appel1,#btn-appel2{
+    margin-left: 10px;
+}
+
+.card-text small{
+    color: #CE0033;
+}
+.card-body button{
+    background-color: white;
+    color: #CE0033;
+}
+.separate{
+    color: #CE0033;
+    width: 1680px;
+    height: 7px;
+    margin-left: 110px;
+}
+
+#a-propos-du-rso{
+    color: white;
+    margin-top: -500px;
+}
+#parag-a-propos-rso{
+    color: white;
+}
+#rej{
+    background-color: #FFFFFF;
+    color: #CE0033;
+    font-weight: bold;
+    border-radius: 40px;
+    width: 200px;
+    height: 50px;
+    border: #CE0033;
+}
+#video1{
+    margin-top: -480px;
+    margin-left: 310px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+form input, textarea{
+    box-shadow: 2px 2px 5px #5E6D6C;
+}
+#rens{
+    margin-top: 20px;
+}
+#parainer{
+    background-color: #CE0033;
+    height: 40vh;
+    color: white;
+}
+#caroussInd1{
+    background-color:#CE0033;
+}
+
+
+#joindre{
+    background-color: #CE0033;
+    color: white;
+}
+footer {
+    background-image: url(../images/footer.png);
+    max-width: 100%;
+    color: #FFFFFF;
+}
+#ce-cohorte{
+    margin-top: 340px;
+}
+#slide1, #slide2, #slide3{
+    width: 1236px;
+    height: 451px;
+}
+
+h5{
+    font-weight: bold;
+}
+.carousel-item{
+    overflow: hidden;
+}
+
+.enRouge{
+    background-color: #CE0033;
+    height: 8vh;
+    color: #fff;
+}
+
+
+@media screen and (max-width: 900px){
+    #emplacement{
+        width: 62px; 
+        height: 5px;
+        position: absolute;
+        margin-top: 5px;
+        background-color: #CE0033;
+    }
+    .card-text, #btn-appel1,#btn-appel2{
+        margin-left: 10px;
+    }
+    #titre-section{
+        font-size: 25px;
+        color: black;
+    }
+    #h3{
+        font-size: 14px;
+    }
+    #designer, #codeur{
+        text-align: center;
+    }
+    #txtDesigner,#txtCodeur{
+        margin-left: 12px;
+    }
+    #carte1,#carte2,#carte3,#carte4{
+        text-align: center;
+    }
+    #carte2,#carte3,#carte4{
+        margin-top: 25px;
+    }
+    .container-fluid #barre1-entre-chiffre {
+        display: none;
+    }
+    .container-fluid #barre2-entre-chiffre {
+        display: none;
+    }
+    .container-fluid #barre3-entre-chiffre {
+        display: none;
+    }
+    .separate{
+        color: #CE0033;
+        height: 7px;
+        width: 100%;
+    }
+    #a-propos-du-rso{
+        text-align: center;
+        font-size: 14px;
+        color: white;
+        margin-top: -130px;
+        margin-left: 20px;
+    }
+    #parag-a-propos-rso{
+        margin-top: -40px;
+        font-size: 12px;
+    }
+    #video1{
+        margin-top: -2px;
+        margin-left: 110px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    #rej{
+        margin-top: 200px;
+        margin-left: 110px;
+        background-color: #CE0033;
+        color: #FFFFFF;
+        font-weight: bold;
+        border-radius: 40px;
+        width: 200px;
+        height: 50px;
+        border: #CE0033;
+    }
+    #rens{
+        margin-left: 140px;
+    }
+    #imgDepo{
+        margin-left: 70px;
+    }
+    #vide{
+        display: none;
+    }
+    #slide1, #slide2, #slide3{
+        width: 490px;
+    }
+    footer {
+        max-width: 100%;
+    }
+    #ce-qu-est-cohorte{
+        text-align: center;
+    }
+    #simp4{
+        margin-left: 60px;
+    }
+    #parainer{
+        position: static;
+    }
+    
+}
+
+
