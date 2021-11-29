@@ -95,15 +95,12 @@ body{
 .relative{
     position: relative;
 }
-.lang{
-    font-weight: 700;
-    margin: 0 8px;
-}select{
-    background-color: #CE0033;
-    position: absolute;
-    top: 0;
-    right: 0;
-    opacity: 0;
+
+.navbar select#langue {
+    border: none;
+    background: white;
+    font-style: normal;
+    color: #CE0033;
 }
 
 #menu{
@@ -389,6 +386,16 @@ h5{
     .cerre{
         margin: 50px 50px;
      }
+     .navbar select#langue {
+        border: none;
+        background: white;
+        font-style: normal;
+        color: #CE0033;
+        margin-left: 15px;
+    }
+    #contact{
+        margin-left: 40px;
+    }
     
 }
 
