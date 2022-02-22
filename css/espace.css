@@ -272,6 +272,26 @@ h5{
     color: #fff;
 }
 
+#faitPar{
+    width: 15px;
+}
+#proposer-projet{
+    background-image: url(Images/bac.png);
+}
+#voirPlus{
+    width: 60px;
+    background-color: #7c4dff;
+    height: 2px;
+}
+#coordonnees{
+    width: 60px;
+    background-color: #7c4dff;
+    height: 2px;
+}
+#droitsReserves{
+    background-color: #CE0033;
+}
+
 
 @media screen and (max-width: 900px){
     #emplacement{
